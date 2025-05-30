@@ -1,0 +1,94 @@
+2025-05-30 13:46:33 - root - INFO - 日志系统已初始化
+2025-05-30 13:46:33 - root - INFO - 绩点计算器启动
+2025-05-30 13:46:33 - src.utils.persistence - INFO - 历史记录将保存在: D:\code\GPA_counter-CUPB-\GPA_counter_refactored\data\history.json
+2025-05-30 13:46:33 - root - INFO - GUI不可用，默认使用命令行界面
+2025-05-30 13:46:33 - src.ui.console_ui - INFO - 初始化命令行界面
+2025-05-30 13:46:33 - src.ui.console_ui - INFO - 启动命令行界面
+2025-05-30 13:46:33 - src.ui.console_ui - INFO - 欢迎使用绩点计算 [3.0]
+2025-05-30 13:47:12 - root - INFO - 日志系统已初始化
+2025-05-30 13:47:12 - root - INFO - 绩点计算器启动
+2025-05-30 13:47:12 - src.utils.persistence - INFO - 历史记录将保存在: D:\code\GPA_counter-CUPB-\GPA_counter_refactored\data\history.json
+2025-05-30 13:47:12 - root - ERROR - GUI模块不可用，请安装必要的依赖
+2025-05-30 13:48:13 - root - INFO - 日志系统已初始化
+2025-05-30 13:48:13 - root - INFO - 绩点计算器启动
+2025-05-30 13:48:13 - src.utils.persistence - INFO - 历史记录将保存在: D:\code\GPA_counter-CUPB-\GPA_counter_refactored\data\history.json
+2025-05-30 13:48:13 - root - ERROR - GUI模块不可用，请安装必要的依赖
+2025-05-30 13:53:31 - root - INFO - 日志系统已初始化
+2025-05-30 13:53:31 - root - INFO - 绩点计算器启动
+2025-05-30 13:53:31 - src.utils.persistence - INFO - 历史记录将保存在: D:\code\GPA_counter-CUPB-\GPA_counter_refactored\data\history.json
+2025-05-30 13:53:31 - root - INFO - 使用图形用户界面
+2025-05-30 13:53:31 - src.ui.gui - INFO - 初始化GUI应用程序
+2025-05-30 13:53:31 - src.ui.gui - INFO - 启动GUI应用程序
+2025-05-30 13:53:32 - root - CRITICAL - 发生未处理的异常: 'MainWindow' object has no attribute '_delete_selected_record'
+Traceback (most recent call last):
+  File "D:\code\GPA_counter-CUPB-\GPA_counter_refactored\src\main.py", line 91, in main
+    app.run()
+    ~~~~~~~^^
+  File "D:\code\GPA_counter-CUPB-\GPA_counter_refactored\src\ui\gui.py", line 75, in run
+    main_window = MainWindow(self.calculator, self.data_loader, self.data_persistence)
+  File "D:\code\GPA_counter-CUPB-\GPA_counter_refactored\src\ui\gui.py", line 122, in __init__
+    self._create_central_widget()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\code\GPA_counter-CUPB-\GPA_counter_refactored\src\ui\gui.py", line 240, in _create_central_widget
+    self._setup_history_tab()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\code\GPA_counter-CUPB-\GPA_counter_refactored\src\ui\gui.py", line 350, in _setup_history_tab
+    self.delete_record_button.clicked.connect(self._delete_selected_record)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MainWindow' object has no attribute '_delete_selected_record'
+2025-05-30 13:54:16 - root - INFO - 日志系统已初始化
+2025-05-30 13:54:16 - root - INFO - 绩点计算器启动
+2025-05-30 13:54:16 - src.utils.persistence - INFO - 历史记录将保存在: D:\code\GPA_counter-CUPB-\GPA_counter_refactored\data\history.json
+2025-05-30 13:54:16 - root - INFO - 使用图形用户界面
+2025-05-30 13:54:16 - src.ui.gui - INFO - 初始化GUI应用程序
+2025-05-30 13:54:16 - src.ui.gui - INFO - 启动GUI应用程序
+2025-05-30 13:54:16 - src.ui.gui - INFO - 加载历史记录
+2025-05-30 13:54:16 - src.utils.persistence - INFO - 成功加载0条历史记录
+2025-05-30 13:54:16 - src.ui.gui - INFO - 加载了0条历史记录
+2025-05-30 13:54:16 - src.ui.gui - INFO - 主窗口初始化完成
+2025-05-30 13:54:57 - src.ui.gui - INFO - 加载文件: D:/code/GPA_counter-CUPB-/GPA_counter_refactored/data/Excel表格示例.xlsx
+2025-05-30 13:54:58 - src.utils.data_loader - INFO - 找到6行有效课程数据
+2025-05-30 13:54:58 - src.utils.data_loader - INFO - 成功从Excel文件中提取6门课程的数据
+2025-05-30 13:54:58 - src.ui.gui - INFO - 更新课程表格
+2025-05-30 13:54:58 - src.ui.gui - INFO - 成功加载 6 门课程
+2025-05-30 13:55:02 - src.ui.gui - INFO - 开始计算GPA
+2025-05-30 13:55:02 - src.ui.gui - INFO - 更新绩点表格
+2025-05-30 13:55:02 - src.ui.gui - INFO - GPA计算完成: 平均学分绩=83.06, GPA=3.3
+2025-05-30 13:55:18 - src.ui.gui - INFO - 保存记录
+2025-05-30 13:55:18 - src.utils.persistence - INFO - 成功加载0条历史记录
+2025-05-30 13:55:18 - src.utils.persistence - INFO - 成功保存记录，当前共有1条历史记录
+2025-05-30 13:55:18 - src.ui.gui - INFO - 加载历史记录
+2025-05-30 13:55:18 - src.utils.persistence - INFO - 成功加载1条历史记录
+2025-05-30 13:55:18 - src.ui.gui - INFO - 加载了1条历史记录
+2025-05-30 13:55:18 - src.ui.gui - INFO - 记录已保存
+2025-05-30 13:55:21 - src.utils.persistence - INFO - 成功加载1条历史记录
+2025-05-30 13:57:41 - root - INFO - 日志系统已初始化
+2025-05-30 13:57:41 - root - INFO - 绩点计算器启动
+2025-05-30 13:57:41 - src.utils.persistence - INFO - 历史记录将保存在: D:\code\GPA_counter-CUPB-\GPA_counter_refactored\data\history.json
+2025-05-30 13:57:41 - root - INFO - 使用图形用户界面
+2025-05-30 13:57:41 - src.ui.gui - INFO - 初始化GUI应用程序
+2025-05-30 13:57:41 - src.ui.gui - INFO - 启动GUI应用程序
+2025-05-30 13:57:42 - src.ui.gui - INFO - 加载历史记录
+2025-05-30 13:57:42 - src.utils.persistence - INFO - 成功加载1条历史记录
+2025-05-30 13:57:42 - src.ui.gui - INFO - 加载了1条历史记录
+2025-05-30 13:57:42 - src.ui.gui - INFO - 主窗口初始化完成
+2025-05-30 15:54:44 - root - INFO - 日志系统已初始化
+2025-05-30 15:54:44 - root - INFO - 绩点计算器启动
+2025-05-30 15:54:44 - src.utils.persistence - INFO - 历史记录将保存在: D:\code\GPA_counter-CUPB-\GPA_counter_refactored\data\history.json
+2025-05-30 15:54:44 - root - INFO - 默认使用图形用户界面
+2025-05-30 15:54:44 - src.ui.gui - INFO - 初始化GUI应用程序
+2025-05-30 15:54:44 - src.ui.gui - INFO - 启动GUI应用程序
+2025-05-30 15:54:44 - src.ui.gui - INFO - 加载历史记录
+2025-05-30 15:54:44 - src.utils.persistence - INFO - 成功加载1条历史记录
+2025-05-30 15:54:44 - src.ui.gui - INFO - 加载了1条历史记录
+2025-05-30 15:54:44 - src.ui.gui - INFO - 主窗口初始化完成
+2025-05-30 16:36:35 - root - INFO - 日志系统已初始化
+2025-05-30 16:36:35 - root - INFO - 绩点计算器启动
+2025-05-30 16:36:35 - src.utils.persistence - INFO - 历史记录将保存在: D:\code\GPA_counter-CUPB-\GPA_counter_refactored\data\history.json
+2025-05-30 16:36:35 - root - INFO - 默认使用图形用户界面
+2025-05-30 16:36:35 - src.ui.gui - INFO - 初始化GUI应用程序
+2025-05-30 16:36:35 - src.ui.gui - INFO - 启动GUI应用程序
+2025-05-30 16:36:35 - src.ui.gui - INFO - 加载历史记录
+2025-05-30 16:36:35 - src.utils.persistence - INFO - 成功加载1条历史记录
+2025-05-30 16:36:35 - src.ui.gui - INFO - 加载了1条历史记录
+2025-05-30 16:36:35 - src.ui.gui - INFO - 主窗口初始化完成

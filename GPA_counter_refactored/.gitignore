@@ -1,0 +1,26 @@
+# 打包文件和可执行文件
+dist/*.exe
+build/
+
+# Python编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 日志文件
+logs/*.log
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db 

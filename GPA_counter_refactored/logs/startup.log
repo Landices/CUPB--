@@ -1,0 +1,32 @@
+2025-05-30 14:10:16,922 - startup - INFO - Python版本检查通过: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+2025-05-30 14:10:17,262 - startup - INFO - 依赖检查通过
+2025-05-30 14:10:17,298 - startup - INFO - 启动主程序
+2025-05-30 14:10:17,298 - startup - ERROR - 启动过程中发生未知错误: main() got an unexpected keyword argument 'use_console'
+2025-05-30 14:10:17,299 - startup - ERROR - Traceback (most recent call last):
+  File "D:\code\GPA_counter-CUPB-\GPA_counter_refactored\run.py", line 132, in main
+    return run_main(
+        use_console=args.console,
+    ...<2 lines>...
+        file_path=args.file
+    )
+TypeError: main() got an unexpected keyword argument 'use_console'
+
+2025-05-30 14:30:08,303 - startup - INFO - Python版本检查通过: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+2025-05-30 14:30:08,648 - startup - INFO - 依赖检查通过
+2025-05-30 14:30:08,682 - startup - INFO - 启动主程序
+2025-05-30 14:30:08,682 - startup - ERROR - 启动过程中发生未知错误: main() got an unexpected keyword argument 'use_console'
+2025-05-30 14:30:08,683 - startup - ERROR - Traceback (most recent call last):
+  File "D:\code\GPA_counter-CUPB-\GPA_counter_refactored\run.py", line 132, in main
+    return run_main(
+        use_console=args.console,
+    ...<2 lines>...
+        file_path=args.file
+    )
+TypeError: main() got an unexpected keyword argument 'use_console'
+
+2025-05-30 15:54:44,170 - startup - INFO - Python版本检查通过: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+2025-05-30 15:54:44,532 - startup - INFO - 依赖检查通过
+2025-05-30 15:54:44,569 - startup - INFO - 启动主程序
+2025-05-30 16:36:34,650 - startup - INFO - Python版本检查通过: 3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 64 bit (AMD64)]
+2025-05-30 16:36:34,993 - startup - INFO - 依赖检查通过
+2025-05-30 16:36:35,031 - startup - INFO - 启动主程序
